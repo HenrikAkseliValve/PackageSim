@@ -89,7 +89,7 @@ public class FXMLMainControl implements Initializable{
         th.start();
       
         // Set the user helping string  
-        ObjectCourseEnd.help = this.userhelp;
+        SimMain.help = this.userhelp;
         
         // Change "Simulate" button's back ground color
         this.buttonSimulate.setBackground(B_RED);
@@ -118,7 +118,7 @@ public class FXMLMainControl implements Initializable{
           // Stage of the window
           Stage win = new Stage();
           // Load items screen                          
-          win.setScene(new Scene(FXMLLoader.load(new File("src\\objectcourseend\\FXMLPackages.fxml").toURI().toURL())));
+          win.setScene(new Scene(FXMLLoader.load(new File("src\\sim\\FXMLPackages.fxml").toURI().toURL())));
           //Show the window
           win.show();                        
         } 

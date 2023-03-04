@@ -61,8 +61,8 @@ public abstract class AbstractPackage{
         Platform.runLater(new Runnable(){
             @Override
             public void run() {
-                ObjectCourseEnd.help.setText(buffer);
-                ObjectCourseEnd.help.setTextFill(Color.GREEN);
+                SimMain.help.setText(buffer);
+                SimMain.help.setTextFill(Color.GREEN);
             }
         });
     }

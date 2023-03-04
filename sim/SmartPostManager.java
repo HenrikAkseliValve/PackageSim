@@ -57,7 +57,7 @@ public class SmartPostManager extends Task{
         long execution = System.currentTimeMillis();
         /* Current time start of the loop */
         long current;
-        while(!ObjectCourseEnd.closing){
+        while(!SimMain.closing){
             
             // Move the package if 100 milliseconds has passed
             current = System.currentTimeMillis();
