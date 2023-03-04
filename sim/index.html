@@ -10,6 +10,7 @@ body {height: 100%; margin: 0px; padding: 0px}
 </script>
 <script type="text/javascript">
 var polyMarkerArray = [];
+
 function initialize() {
 	var latlng = new google.maps.LatLng(63.9667, 25.7667);
 	var myOptions = {
@@ -22,21 +23,21 @@ function initialize() {
 		backgroundColor: "#666970"
 	};
 
-document.geocoder = new google.maps.Geocoder();
-document.map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
+	document.geocoder = new google.maps.Geocoder();
+	document.map = new google.maps.Map(document.getElementById("map_canvas"),myOptions);
 
-document.setMapTypeRoad = function setMapTypeRoad() {
-		document.map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
-};
-document.setMapTypeSatellite = function setMapTypeSatellite() {
-		document.map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
-};
-document.setMapTypeHybrid = function setMapTypeHybrid() {
-		document.map.setMapTypeId(google.maps.MapTypeId.HYBRID);
-};
-document.setMapTypeTerrain = function setMapTypeTerrain() {
-		document.map.setMapTypeId(google.maps.MapTypeId.TERRAIN);
-};
+	document.setMapTypeRoad = function setMapTypeRoad() {
+			document.map.setMapTypeId(google.maps.MapTypeId.ROADMAP);
+	};
+	document.setMapTypeSatellite = function setMapTypeSatellite() {
+			document.map.setMapTypeId(google.maps.MapTypeId.SATELLITE);
+	};
+	document.setMapTypeHybrid = function setMapTypeHybrid() {
+			document.map.setMapTypeId(google.maps.MapTypeId.HYBRID);
+	};
+	document.setMapTypeTerrain = function setMapTypeTerrain() {
+			document.map.setMapTypeId(google.maps.MapTypeId.TERRAIN);
+	};
 }
 
 document.goToLocation = function goToLocation(searchString, infoString, color) {
