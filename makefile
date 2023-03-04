@@ -9,3 +9,6 @@ all:
 
 run:
 	java $(JAVAFX_OPTION) sim.SimMain
+
+clear:
+	rm sim/*.class
