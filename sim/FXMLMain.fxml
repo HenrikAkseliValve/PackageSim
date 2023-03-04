@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="578.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="objectcourseend.FXMLMainControl">
+<AnchorPane id="AnchorPane" prefHeight="578.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sim.FXMLMainControl">
     <children>
       <ToolBar prefHeight="40.0" prefWidth="556.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="182.0">
         <items>

@@ -1,4 +1,4 @@
-package objectcourseend;
+package sim;
 
 import java.io.File;
 import java.io.IOException;
@@ -24,7 +24,7 @@ import javafx.scene.layout.CornerRadii;
 import javafx.scene.paint.Color;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
-import static objectcourseend.ObjectCourseEnd.help;
+import static sim.ObjectCourseEnd.help;
 
 /** @author Henrik Valve */
 public class FXMLMainControl implements Initializable{

@@ -1,5 +1,4 @@
-JAVA_LIST=$(addprefix objectcourseend/, ObjectCourseEnd.java Class_1.java FXMLPackagesControl.java SaxXML.java Class_2.java SmartPost.java Class_3.java SmartPostManager.java FXMLMainControl.java Item.java Storage.java AbstractPackage.java)
-
+JAVA_LIST=$(addprefix sim/, ObjectCourseEnd.java Class_1.java FXMLPackagesControl.java SaxXML.java Class_2.java SmartPost.java Class_3.java SmartPostManager.java FXMLMainControl.java Item.java Storage.java AbstractPackage.java)
 
 # Archlinux fix version.
 # TODO: Other OSes.
@@ -9,4 +8,4 @@ all:
 	javac $(JAVAFX_OPTION) -Xmaxerrs 1 $(JAVA_LIST)
 
 run:
-	java $(JAVAFX_OPTION) objectcourseend.ObjectCourseEnd
+	java $(JAVAFX_OPTION) sim.ObjectCourseEnd

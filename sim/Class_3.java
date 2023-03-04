@@ -1,6 +1,6 @@
-package objectcourseend;
+package sim;
 
-import static objectcourseend.ObjectCourseEnd.RANDOM;
+import static sim.ObjectCourseEnd.RANDOM;
         
 
 /** Class Class_3 */

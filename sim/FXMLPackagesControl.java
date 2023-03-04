@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package objectcourseend;
+package sim;
 
 import java.net.URL;
 import java.util.Collections;
@@ -15,7 +15,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
-import static objectcourseend.ObjectCourseEnd.help;
+import static sim.ObjectCourseEnd.help;
 
 /**
  * FXML Controller class

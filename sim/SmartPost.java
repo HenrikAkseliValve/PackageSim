@@ -1,4 +1,4 @@
-package objectcourseend;
+package sim;
 
 import netscape.javascript.JSObject;
 

@@ -1,4 +1,4 @@
-package objectcourseend;
+package sim;
 
 import javafx.application.Platform;
 import javafx.scene.paint.Color;

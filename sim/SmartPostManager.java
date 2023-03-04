@@ -1,6 +1,6 @@
-package objectcourseend;
+package sim;
 
-import static objectcourseend.ObjectCourseEnd.help;
+import static sim.ObjectCourseEnd.help;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;

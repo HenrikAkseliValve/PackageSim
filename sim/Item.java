@@ -1,10 +1,7 @@
-package objectcourseend;
-
-
+package sim;
 
 /** Class Item */
 public class Item{
-
 
     /** Name of the item */
     String name;
@@ -16,7 +13,6 @@ public class Item{
     int sizey;
     /** In centimeters z-axel length of the item */
     int sizez;
-  
 
     /* Basic constructor for item */
     public Item(String name, int width, int height, int dept, boolean fractional) {
