@@ -118,7 +118,7 @@ public class FXMLMainControl implements Initializable{
           // Stage of the window
           Stage win = new Stage();
           // Load items screen                          
-          win.setScene(new Scene(FXMLLoader.load(new File("src\\sim\\FXMLPackages.fxml").toURI().toURL())));
+          win.setScene(new Scene(FXMLLoader.load(new File("sim"+File.separator+"FXMLPackages.fxml").toURI().toURL())));
           //Show the window
           win.show();                        
         } 
