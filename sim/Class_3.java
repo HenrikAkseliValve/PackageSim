@@ -1,6 +1,6 @@
 package sim;
 
-import static sim.ObjectCourseEnd.RANDOM;
+import static sim.SimMain.RANDOM;
         
 
 /** Class Class_3 */

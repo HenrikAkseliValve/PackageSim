@@ -15,7 +15,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
-import static sim.ObjectCourseEnd.help;
+import static sim.SimMain.help;
 
 /**
  * FXML Controller class

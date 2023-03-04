@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
 /** @author Henrik Valve */
-public class ObjectCourseEnd extends Application{
+public class SimMain extends Application{
     
     /* Tells should all the threads be closing */
     public static boolean closing = false;

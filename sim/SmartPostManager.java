@@ -1,6 +1,6 @@
 package sim;
 
-import static sim.ObjectCourseEnd.help;
+import static sim.SimMain.help;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;

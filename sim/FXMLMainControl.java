@@ -24,7 +24,7 @@ import javafx.scene.layout.CornerRadii;
 import javafx.scene.paint.Color;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
-import static sim.ObjectCourseEnd.help;
+import static sim.SimMain.help;
 
 /** @author Henrik Valve */
 public class FXMLMainControl implements Initializable{
